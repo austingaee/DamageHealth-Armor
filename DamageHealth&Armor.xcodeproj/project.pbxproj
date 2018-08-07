@@ -12,6 +12,7 @@
 		94E6B1BC211A48D8007FDE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BA211A48D8007FDE09 /* Main.storyboard */; };
 		94E6B1BE211A48DA007FDE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BD211A48DA007FDE09 /* Assets.xcassets */; };
 		94E6B1C1211A48DA007FDE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BF211A48DA007FDE09 /* LaunchScreen.storyboard */; };
+		94E6B1CC211A530A007FDE09 /* Damage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6B1CB211A530A007FDE09 /* Damage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94E6B1BD211A48DA007FDE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E6B1C0211A48DA007FDE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E6B1C2211A48DA007FDE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E6B1CB211A530A007FDE09 /* Damage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		94E6B1B5211A48D8007FDE09 /* DamageHealth&Armor */ = {
 			isa = PBXGroup;
 			children = (
+				94E6B1C8211A4D4B007FDE09 /* Model */,
 				94E6B1B6211A48D8007FDE09 /* AppDelegate.swift */,
 				94E6B1B8211A48D8007FDE09 /* ViewController.swift */,
 				94E6B1BA211A48D8007FDE09 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				94E6B1C2211A48DA007FDE09 /* Info.plist */,
 			);
 			path = "DamageHealth&Armor";
+			sourceTree = "<group>";
+		};
+		94E6B1C8211A4D4B007FDE09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94E6B1CB211A530A007FDE09 /* Damage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				94E6B1B9211A48D8007FDE09 /* ViewController.swift in Sources */,
 				94E6B1B7211A48D8007FDE09 /* AppDelegate.swift in Sources */,
+				94E6B1CC211A530A007FDE09 /* Damage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.austingae.DamageHealth-Armor";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austingae.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.austingae.DamageHealth-Armor";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austingae.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
