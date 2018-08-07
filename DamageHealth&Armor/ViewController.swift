@@ -34,9 +34,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func damageBar(_ sender: UIButton) {
-        if Float(self.armorBarView.frame.size.width) > 0.0 {
+        if self.armorBarView.frame.size.width > 7.63 {
             self.armorBarView.frame.size.width -= CGFloat(damageAmount)
-        } 
+            print(self.armorBarView.frame.size.width)
+        } else {
+            self.healthBarView.frame.size.width -= CGFloat(damageAmount)
+            print(self.healthBarView.frame.size.width)
+        }
     }
     
     @IBAction func healBar(_ sender: Any) {
