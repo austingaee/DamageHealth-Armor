@@ -46,6 +46,8 @@ class ViewController: UIViewController {
     @IBAction func healBar(_ sender: Any) {
         if Float(self.armorBarView.frame.size.width) < barAmount {
             self.armorBarView.frame.size.width += CGFloat(healAmount)
+        } else if Float(self.armorBarView.frame.size.width) == barAmount && Float(self.healthBarView.frame.size.width) < barAmount {
+            self.healthBarView.frame.size.width += CGFloat(healAmount)
         }
     }
 }
