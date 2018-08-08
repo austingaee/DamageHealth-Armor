@@ -12,7 +12,7 @@
 		94E6B1BC211A48D8007FDE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BA211A48D8007FDE09 /* Main.storyboard */; };
 		94E6B1BE211A48DA007FDE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BD211A48DA007FDE09 /* Assets.xcassets */; };
 		94E6B1C1211A48DA007FDE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1BF211A48DA007FDE09 /* LaunchScreen.storyboard */; };
-		94E6B1CC211A530A007FDE09 /* Damage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6B1CB211A530A007FDE09 /* Damage.swift */; };
+		94E6B1D4211A60A0007FDE09 /* red_blood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E6B1D3211A60A0007FDE09 /* red_blood.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		94E6B1BD211A48DA007FDE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E6B1C0211A48DA007FDE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E6B1C2211A48DA007FDE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E6B1CB211A530A007FDE09 /* Damage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damage.swift; sourceTree = "<group>"; };
+		94E6B1D3211A60A0007FDE09 /* red_blood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = red_blood.jpg; path = ../../../../Downloads/red_blood.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,11 @@
 		94E6B1B5211A48D8007FDE09 /* DamageHealth&Armor */ = {
 			isa = PBXGroup;
 			children = (
+				94E6B1D2211A6053007FDE09 /* Controller */,
+				94E6B1D1211A6041007FDE09 /* View */,
+				94E6B1D0211A6007007FDE09 /* SupportingFiles */,
+				94E6B1CD211A5FF7007FDE09 /* Images */,
 				94E6B1C8211A4D4B007FDE09 /* Model */,
-				94E6B1B6211A48D8007FDE09 /* AppDelegate.swift */,
-				94E6B1B8211A48D8007FDE09 /* ViewController.swift */,
-				94E6B1BA211A48D8007FDE09 /* Main.storyboard */,
-				94E6B1BD211A48DA007FDE09 /* Assets.xcassets */,
-				94E6B1BF211A48DA007FDE09 /* LaunchScreen.storyboard */,
-				94E6B1C2211A48DA007FDE09 /* Info.plist */,
 			);
 			path = "DamageHealth&Armor";
 			sourceTree = "<group>";
@@ -70,9 +68,43 @@
 		94E6B1C8211A4D4B007FDE09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				94E6B1CB211A530A007FDE09 /* Damage.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		94E6B1CD211A5FF7007FDE09 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				94E6B1D3211A60A0007FDE09 /* red_blood.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		94E6B1D0211A6007007FDE09 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				94E6B1C2211A48DA007FDE09 /* Info.plist */,
+				94E6B1BF211A48DA007FDE09 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		94E6B1D1211A6041007FDE09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94E6B1BA211A48D8007FDE09 /* Main.storyboard */,
+				94E6B1BD211A48DA007FDE09 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94E6B1D2211A6053007FDE09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94E6B1B6211A48D8007FDE09 /* AppDelegate.swift */,
+				94E6B1B8211A48D8007FDE09 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +167,7 @@
 			files = (
 				94E6B1C1211A48DA007FDE09 /* LaunchScreen.storyboard in Resources */,
 				94E6B1BE211A48DA007FDE09 /* Assets.xcassets in Resources */,
+				94E6B1D4211A60A0007FDE09 /* red_blood.jpg in Resources */,
 				94E6B1BC211A48D8007FDE09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +181,6 @@
 			files = (
 				94E6B1B9211A48D8007FDE09 /* ViewController.swift in Sources */,
 				94E6B1B7211A48D8007FDE09 /* AppDelegate.swift in Sources */,
-				94E6B1CC211A530A007FDE09 /* Damage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A83NX222R9;
-				INFOPLIST_FILE = "DamageHealth&Armor/Info.plist";
+				INFOPLIST_FILE = "DamageHealth&Armor/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A83NX222R9;
-				INFOPLIST_FILE = "DamageHealth&Armor/Info.plist";
+				INFOPLIST_FILE = "DamageHealth&Armor/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
